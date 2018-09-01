@@ -1,0 +1,27 @@
+div.card {
+    cursor: pointer;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 5%;
+    justify-items: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: darkorange;
+}
+
+img.radius {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+a.email {
+    color: gray;
+    font-size: 12px;
+}
